@@ -1,0 +1,181 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #F1F8E9;
+	color: #333;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+}
+
+a {
+	color: #8BC34A;
+	text-decoration: none;
+}
+
+header {
+	background-color: #33691E;
+	box-shadow: 0 0 6px rgba(0,0,0,0.27);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	color: #8BC34A;
+	font-family: 'Lobster', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 5em;
+	line-height: normal;
+	margin: auto;
+	text-decoration: none;
+	text-align: center;
+}
+
+h1 a {
+	color: #8BC34A;
+}
+
+.card {
+	background-color: #fff;
+	box-shadow: 0 0 6px rgba(0,0,0,0.27);
+	margin: 20px;
+	border-radius: 2px;
+	padding-bottom: 10px
+}
+
+.card p {
+	margin:10px;
+}
+
+.card img {
+	margin:10px;
+	float: left;
+	max-width: 25%;
+}
+
+.gallery img {
+	margin:0;
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+
+.card-header {
+	color: #8BC34A;
+	background-color: #33691E;
+	padding: 10px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+/* 
+440 BREAK POINT
+*/
+@media screen and (min-width: 440px){	
+	header {
+		padding-bottom: 25px;
+	}
+	h1 {
+		font-size: 6em;
+	}
+}	
+
+/* 
+660 BREAK POINT
+*/
+@media screen and (min-width: 660px){	
+	header {
+		padding-bottom: 25px;
+	}
+	h1 {
+		font-size: 12em;
+	}
+	.card {
+		float: left;
+		width: 46.5%;
+		margin: 0 0 20px 2.5%;
+	}
+}
+
+
+/* 
+800 BREAK POINT
+*/
+@media screen and (min-width: 800px){	
+	header {
+		padding-bottom: 40px;
+	}
+	h1 {
+		font-size: 16em;
+	}
+	.card {
+		float: left;
+		width: 47%;
+		margin: 0 0 20px 2%;
+	}
+}	
+
+/* 
+1000 BREAK POINT
+*/
+@media screen and (min-width: 1000px){	
+	header {
+		padding-bottom: 40px;
+	}
+	h1 {
+		font-size: 15em;
+	}
+	.card {
+		float: left;
+		width: 47%;
+		margin: 0 0 20px 2%;
+	}
+}
+
+/* 
+1250 BREAK POINT
+*/
+@media screen and (min-width: 1250px){	
+	header {
+		padding-bottom: 40px;
+	}
+	h1 {
+		font-size: 15em;
+	}
+	.card {
+		float: left;
+		width: 31.333333%;
+		margin: 0 0 20px 1.5%;
+	}
+}	
+
+/* 
+1500 BREAK POINT
+*/
+@media screen and (min-width: 1500px){	
+}	
+
+/* 
+1800 BREAK POINT
+*/
+@media screen and (min-width: 1800px){	
+	header {
+		padding-bottom: 60px;
+	}
+	h1 {
+		font-size: 20em;
+	}
+	#content {
+		width: 1800px;
+		margin: auto;
+	}
+	.card {
+		float: left;
+		width: 570px;
+		margin: 0 0 20px 20px;
+	}
+}	
+
+

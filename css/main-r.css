@@ -1,0 +1,247 @@
+body {
+	color: #fff;
+	background-color: #25242c;
+	font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 120%;
+}
+
+img {
+	max-width: 100%;
+}
+
+video {
+	max-width: 100%;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+h1 {
+	text-transform: uppercase;
+	font-weight:400;
+	font-size: 2.5em;
+	margin-bottom: 18px;
+}
+
+h1 a {
+	text-decoration:none;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.8em;
+	padding: 24px;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.4em;
+	padding: 24px;
+}
+
+h3 a {
+	text-decoration:none;
+}
+
+hgroup li {
+	display: inline;
+}
+
+hgroup li img{
+	width: 32px;
+	height: 32px;
+}
+
+#contact {
+	background-color: #ec3f8c;
+	width: 100%; 
+	padding: 18px 0 18px 0;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#contact img{
+	margin: 0 8px 0 0;
+}
+
+#social {
+    clear: both;	
+}
+
+#more, #loading {
+    clear: both;
+    margin: 0 20px 20px 20px;
+    text-align:center;	
+	font-size: 1.0em;
+    text-transform: uppercase;
+}
+
+#more {
+	cursor: pointer;
+}
+
+#loading {
+	display: none;
+}
+
+/* project: invidiual sections within projects section */
+.project {
+    clear: both;	
+}
+
+.projectTitle {
+	cursor: pointer;
+	background-color: #39b1c6;
+}
+
+.projectDesc {
+	padding: 24px;
+	display: none;
+}
+
+.projectDesc img{
+    float: left;
+    width: 150px;
+    margin: 0 24px 20px 0;
+}
+
+/* dateText: area of social post showing date posted and sharing options */
+.dateText {
+	color: #fff;
+	background-color: #1fd26a;
+	padding: 24px;
+	font-size: 1em;
+}
+
+.dateText img{
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+
+.share {
+	float: right;
+}
+
+/* item: individual masonry block */
+.item{
+	width: 100%; 
+	color: #333;
+	margin: 0 0 20px 0;
+	background: #fff;
+}
+
+/* photoImg: images within the social feed that have click disabled on mobile devices, on larger screens click triggers lightbox */
+.photoImg{
+	pointer-events: none;
+	cursor: default;
+}
+
+/* Container: required for Masonry, the large container in whoich all the masonry elements exist */
+#container p{
+	margin: 24px;
+}
+
+@media screen and (min-width: 600px){	
+/* For an 800 pixel screen we want the 2 columns to have a width of 390 px with a 20px gap between them*/
+	#container{
+		width: 102.5%; /* (390*2 + 20*2)/800 */
+	}
+	.item {
+		width: 47.560975609756%; /* 390/(390*2 + 20*2) */
+		margin-right: 2.439024390244%; /* 20/(390*2 + 20*2) */
+		margin-bottom: 2.439024390244%; /* 20/(390*2 + 20*2) */
+	}
+}	
+
+@media screen and (min-width: 800px){	
+/* photoImg: images within the social feed that have click disabled on mobile devices, on larger screens click triggers lightbox */
+	.photoImg{
+		pointer-events: auto;
+		cursor: auto;
+	}
+}	
+
+@media screen and (min-width: 1000px){	
+	#contact {
+		text-align: left;
+		padding: 40px 0 40px 24px;
+	}
+	hgroup h1{
+		font-size: 64px;
+		float:left;
+		margin: 20px 30px 0 0;
+		vertical-align: middle;
+	}
+	hgroup ul{
+		vertical-align: middle;
+	}
+	hgroup li img{
+		width: 60px;
+		height: 60px;
+	}
+	#projects {
+		float: left;
+		clear: none;
+		width: 33%;
+	}
+	
+	#social {
+	    float: right;	
+		clear: none;
+		width: 67%;
+	}
+	.projectDesc {
+		display: block;
+	}	
+	.projectTitle{
+		pointer-events: none;
+		cursor: default;
+	}
+}
+
+@media screen and (min-width: 1400px){	
+	#projects {
+		width: 25%;
+	}
+	
+	#social {
+		width: 75%;
+	}
+	/* Switch to 3 columns of social. For an 1600 pixel screen we want the 3 columns to have a 20px gap between them*/
+	/* Social section has width of 0.75*1600 = 1200 */
+	#container{
+		width: 101.666666666666667%; /* 1220/1200 */
+	}
+	.item {
+		width: 31.693989071038%; /* ((1200-40)/3)/1220 */
+		margin-right: 1.639344262295%; /* 20/1220 */
+		margin-bottom: 1.639344262295%; /* 20/1220 */
+	}
+}
+
+@media screen and (min-width: 1800px){	
+	#projects {
+		width: 20%;
+	}
+	
+	#social {
+		width: 80%;
+	}
+	/* Switch to 4 columns of social. For an 2000 pixel screen we want the 4 columns to have a 20px gap between them*/
+	/* Social section has width of 0.80*2000 = 1600 */
+	#container{
+		width: 101.25%; /* 1620/1600 */
+	}
+	.item {
+		width: 23.765432098765%; /* ((1600-60)/4)/1620 */
+		margin-right: 1.234567901235%; /* 20/1620 */
+		margin-bottom: 1.234567901235%; /* 20/1620 */
+	}
+}
