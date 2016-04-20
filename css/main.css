@@ -1,19 +1,37 @@
 body {
-	background-color: #263238;
-	color: #607D8B;
-}
+  background-color: #263238;
+  color: #607D8B; }
 
 h1 {
-	font-family: 'Lobster', sans-serif;
-	font-weight: 700;
-	font-style: italic;
-	font-size: 16em;
-	margin: auto;
-	text-decoration: none;
-	text-align: center;
-}
+  font-family: 'Lobster', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3em;
+  margin: auto;
+  text-align: center; }
+  h1 a {
+    color: #607D8B;
+    text-decoration: none; }
+  @media screen and (min-width: 440px) {
+    h1 {
+      font-size: 4.4em; } }
+  @media screen and (min-width: 660px) {
+    h1 {
+      font-size: 6.6em; } }
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 8em; } }
+  @media screen and (min-width: 1000px) {
+    h1 {
+      font-size: 10em; } }
+  @media screen and (min-width: 1250px) {
+    h1 {
+      font-size: 12.5em; } }
+  @media screen and (min-width: 1500px) {
+    h1 {
+      font-size: 15em; } }
+  @media screen and (min-width: 1800px) {
+    h1 {
+      font-size: 18em; } }
 
-h1 a {
-	color: #607D8B;
-	text-decoration: none;
-}
+/*# sourceMappingURL=main.css.map */
