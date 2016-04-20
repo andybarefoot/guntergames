@@ -1,0 +1,11 @@
+$bodyTextColor: #333;
+$highlightTextColor: #8BC34A;
+$backgroundColor: #F1F8E9;
+$highlightBackgroundColor: #33691E;
+$cardBackgroundColor: #fff;
+
+$h1textMax: 26em;
+
+@import "_basics.scss";
+@import "_text.scss";
+@import "_layout.scss";

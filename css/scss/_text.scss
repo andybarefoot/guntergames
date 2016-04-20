@@ -1,0 +1,42 @@
+$maxWidth: 1800;
+
+a {
+	color: $highlightBackgroundColor;
+	text-decoration: none;
+}
+
+h1 {
+	color: $highlightTextColor;
+	font-family: 'Lobster', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: $h1textMax * 300 / $maxWidth;
+	margin: auto;
+	text-align: center;
+	line-height: normal;
+	a {
+		color: $highlightTextColor;
+		text-decoration: none;
+	}
+	@media screen and (min-width: 440px){	
+		font-size: $h1textMax * 440 / $maxWidth;
+	}	
+	@media screen and (min-width: 660px){	
+		font-size: $h1textMax * 660 / $maxWidth;
+	}	
+	@media screen and (min-width: 800px){	
+		font-size: $h1textMax * 800 / $maxWidth;
+	}	
+	@media screen and (min-width: 1000px){	
+		font-size: $h1textMax * 1000 / $maxWidth;
+	}	
+	@media screen and (min-width: 1250px){	
+		font-size: $h1textMax * 1250 / $maxWidth;
+	}	
+	@media screen and (min-width: 1500px){	
+		font-size: $h1textMax * 1500 / $maxWidth;
+	}	
+	@media screen and (min-width: 1800px){	
+		font-size: $h1textMax * 1800 / $maxWidth;
+	}	
+}

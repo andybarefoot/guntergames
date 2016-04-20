@@ -1,0 +1,99 @@
+
+header {
+	background-color: $highlightBackgroundColor;
+	box-shadow: 0 0 6px rgba(0,0,0,0.27);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	@media screen and (min-width: 440px){	
+		padding-bottom: 25px;
+	}	
+	@media screen and (min-width: 660px){	
+	}	
+	@media screen and (min-width: 800px){	
+		padding-bottom: 40px;
+	}	
+	@media screen and (min-width: 1000px){	
+	}	
+	@media screen and (min-width: 1250px){	
+	}	
+	@media screen and (min-width: 1500px){	
+		padding-bottom: 60px;
+	}	
+	@media screen and (min-width: 1800px){	
+	}	
+}
+
+.card {
+	background-color: $cardBackgroundColor;
+	box-shadow: 0 0 6px rgba(0,0,0,0.27);
+	margin: 20px;
+	border-radius: 2px;
+	padding-bottom: 10px;
+	p {
+		margin:10px;
+	}
+	img {
+		margin:10px;
+		float: left;
+		max-width: 25%;
+	}
+	@media screen and (min-width: 440px){	
+	}	
+	@media screen and (min-width: 660px){	
+		float: left;
+		width: 46.5%;
+		margin: 0 0 20px 2.5%;
+	}	
+	@media screen and (min-width: 800px){	
+		float: left;
+		width: 47%;
+		margin: 0 0 20px 2%;
+	}	
+	@media screen and (min-width: 1000px){	
+	}	
+	@media screen and (min-width: 1250px){	
+		float: left;
+		width: 31.333333%;
+		margin: 0 0 20px 1.5%;
+	}	
+	@media screen and (min-width: 1500px){	
+	}	
+	@media screen and (min-width: 1800px){	
+		float: left;
+		width: 570px;
+		margin: 0 0 20px 20px;
+	}	
+}
+
+.gallery img {
+	margin:0;
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+
+.card-header {
+	color: $highlightTextColor;
+	background-color: $highlightBackgroundColor;
+	padding: 10px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+#content {
+	@media screen and (min-width: 1800px){	
+		width: 1800px;
+		margin: auto;
+	}
+}
+
+#playcontent {
+	margin: auto;
+}
+
+#unityPlayer {
+	margin: auto;
+	width: 1280px;
+}
+

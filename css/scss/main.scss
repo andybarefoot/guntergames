@@ -1,46 +1,12 @@
-$primaryColor: #607D8B;
+$bodyTextColor: #333;
+$highlightTextColor: #607D8B;
 $backgroundColor: #263238;
+$highlightBackgroundColor: #263238;
+$cardBackgroundColor: #fff;
+
 $h1textMax: 18em;
-$maxWidth: 1800;
 
-body {
-	background-color: $backgroundColor;
-	color: $primaryColor;
-}
-
-h1 {
-	font-family: 'Lobster', sans-serif;
-	font-weight: 700;
-	font-style: italic;
-	font-size: $h1textMax * 300 / $maxWidth;
-	margin: auto;
-	text-align: center;
-	a {
-		color: $primaryColor;
-		text-decoration: none;
-	}
-	@media screen and (min-width: 440px){	
-		font-size: $h1textMax * 440 / $maxWidth;
-	}	
-	@media screen and (min-width: 660px){	
-		font-size: $h1textMax * 660 / $maxWidth;
-	}	
-	@media screen and (min-width: 800px){	
-		font-size: $h1textMax * 800 / $maxWidth;
-	}	
-	@media screen and (min-width: 1000px){	
-		font-size: $h1textMax * 1000 / $maxWidth;
-	}	
-	@media screen and (min-width: 1250px){	
-		font-size: $h1textMax * 1250 / $maxWidth;
-	}	
-	@media screen and (min-width: 1500px){	
-		font-size: $h1textMax * 1500 / $maxWidth;
-	}	
-	@media screen and (min-width: 1800px){	
-		font-size: $h1textMax * 1800 / $maxWidth;
-	}	
-}
-
+@import "_basics.scss";
+@import "_text.scss";
 
 

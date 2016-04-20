@@ -1,14 +1,25 @@
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: #263238;
-  color: #607D8B; }
+  color: #333;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left; }
+
+a {
+  color: #607D8B;
+  text-decoration: none; }
 
 h1 {
+  color: #607D8B;
   font-family: 'Lobster', sans-serif;
   font-weight: 700;
   font-style: italic;
   font-size: 3em;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+  line-height: normal; }
   h1 a {
     color: #607D8B;
     text-decoration: none; }
